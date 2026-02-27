@@ -1,0 +1,5 @@
+{
+  "name": "Prompt Manager Extension",
+  "description": "A personal prompt management tool to save, search, copy, and manage prompts for web-based AI.",
+  "requestFramePermissions": []
+}

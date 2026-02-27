@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Prompt Manager Extension",
+  "version": "1.0.0",
+  "description": "A personal prompt management tool to save, search, copy, and manage prompts for web-based AI.",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Open Prompt Manager",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "permissions": [
+    "storage",
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+    "https://generativelanguage.googleapis.com/*",
+    "https://api.deepseek.com/*"
+  ]
+}
